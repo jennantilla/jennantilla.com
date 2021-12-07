@@ -1,0 +1,75 @@
+body {
+        font-family: 'Raleway', sans-serif;
+    }
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#jenna-photo {
+    width:200px;
+    height:200px;
+    object-fit:cover;
+    border-radius:50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#tech {
+    text-decoration: underline
+}
+
+.card {
+    margin: 0px;
+    padding: 0px;
+}
+
+.card-footer {
+    background-color: white;
+
+}
+
+.center {
+    text-align: center;
+}
+
+.projects {
+    margin-bottom: 5px;
+    border: solid;
+    border-width: 1px;
+    border-color: #dbdbdb;
+}
+
+.project-description {
+    margin: 20px;
+}
+
+.project-image {
+    width: 100%;
+}
+
+.skills-row {
+    width: 100%;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+    #home {
+        background-image: url('media/jen.jpg');
+        height: 600px;
+        background-attachment: fixed;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+/*Hide background image on mobile */
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+    #home {
+        background-image: none;
+    }
+}
